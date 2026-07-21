@@ -15,6 +15,6 @@ manifest:
       import: app/west.yml
     - name: prospector-zmk-module                 # <--- and these
       remote: carrefinho                          # <---
-      revision: main                              # <---
+      revision: feat/new-status-screens                              # <---
   self:
     path: config
