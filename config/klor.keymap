@@ -57,20 +57,20 @@
         Nav {
             display-name = "Nav";
             bindings = <
-                &kp TILDE  &kp LS(TAB)  &trans     &kp TAB        &kp LA(LC(NUMBER_7))  &kp LA(LC(NUMBER_0))  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp LEFT_SHIFT  &kp LEFT   &kp UP       &kp RIGHT  &kp PG_UP      &kp LA(LC(NUMBER_8))  &kp LA(LC(NUMBER_9))  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS          &kp SLASH
-&trans          &kp HOME   &kp DOWN     &kp END    &kp PAGE_DOWN  &kp LS(NUMBER_8)      &kp LS(NUMBER_9)      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(BACKSLASH)  &kp LS(NUMBER_7)
-                           &trans       &kp DOT    &trans                                                     &trans        &trans        &trans
+                &kp TILDE  &kp LS(TAB)  &trans     &kp TAB        &kp RA(NUMBER_7)  &kp RA(NUMBER_0)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp LEFT_SHIFT  &kp LEFT   &kp UP       &kp RIGHT  &kp PG_UP      &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS          &kp SLASH
+&trans          &kp HOME   &kp DOWN     &kp END    &kp PAGE_DOWN  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(BACKSLASH)  &kp LS(NUMBER_7)
+                           &trans       &kp DOT    &trans                                             &trans        &trans        &trans
             >;
         };
 
         Sym {
             display-name = "Sym";
             bindings = <
-        &kp EXCL  &kp LS(NUMBER_2)  &kp HASH       &kp RA(NUMBER_4)  &kp PERCENT  &kp LS(NUMBER_7)  &kp LS(NUMBER_6)  &kp KP_ASTERISK  &kp LS(NUMBER_0)  &kp BACKSLASH
-&trans  &trans    &kp RA(NUMBER_2)  &trans         &trans            &trans       &trans            &trans            &trans           &kp HOME          &trans          &kp LS(MINUS)
-&trans  &trans    &trans            &kp LS(SLASH)  &kp EQUAL         &trans       &trans            &kp BACKSLASH     &trans           &trans            &studio_unlock  &trans
-                  &trans            &trans
+        &kp EXCL           &kp LS(NUMBER_2)  &kp HASH       &kp RA(NUMBER_4)  &kp PERCENT  &kp LS(NUMBER_7)  &kp LS(NUMBER_6)  &kp KP_ASTERISK  &kp LS(NUMBER_0)  &kp BACKSLASH
+&trans  &trans             &kp RA(NUMBER_2)  &trans         &trans            &trans       &trans            &trans            &trans           &kp HOME          &trans          &kp LS(MINUS)
+&trans  &kp LS(LESS_THAN)  &kp LESS_THAN     &kp LS(SLASH)  &kp EQUAL         &trans       &trans            &kp BACKSLASH     &trans           &trans            &studio_unlock  &trans
+                           &trans            &trans
             >;
         };
 
