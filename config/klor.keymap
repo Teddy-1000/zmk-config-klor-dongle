@@ -67,8 +67,8 @@
         Sym {
             display-name = "Sym";
             bindings = <
-        &kp EXCL             &kp LS(NUMBER_2)  &kp HASH       &kp RA(NUMBER_4)  &kp PERCENT  &kp LS(NUMBER_7)  &kp LS(NUMBER_6)  &kp KP_ASTERISK  &kp LS(NUMBER_0)   &kp EQUAL
-&trans  &kp GRAVE            &kp RA(NUMBER_2)  &trans         &trans            &trans       &trans            &trans            &trans           &kp RIGHT_BRACKET  &kp RA(BACKSLASH)  &kp LS(MINUS)
+        &kp EXCL             &kp LS(NUMBER_2)  &kp HASH       &kp RA(NUMBER_4)  &kp PERCENT  &kp LS(NUMBER_7)  &kp LS(NUMBER_6)  &kp KP_ASTERISK  &kp LS(NUMBER_0)   &kp MINUS
+&trans  &kp GRAVE            &kp RA(NUMBER_2)  &trans         &trans            &trans       &kp EQUAL            &trans            &trans           &kp RIGHT_BRACKET  &kp RA(BACKSLASH)  &kp LS(MINUS)
 &trans  &kp LS(NON_US_BSLH)  &kp NON_US_BSLH   &kp LS(SLASH)  &kp EQUAL         &trans       &trans            &trans            &trans           &kp BACKSLASH      &studio_unlock     &trans
                              &trans            &trans
             >;
